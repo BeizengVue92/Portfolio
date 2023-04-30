@@ -15,6 +15,16 @@
       </div>
     </div>
 
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="images/pigLatin.png" alt="Card image for Pig Latin Application">
+      <div class="card-body">
+        <h5 class="card-title">Pokemon Search Application</h5>
+        <p class="card-text">PHP Application using API calls to Pokeapi.co</p>
+        <a href="pokemon.php" class="btn btn-primary">Live Project</a>
+        <a href="#" class="btn btn-success">Code Source</a>
+      </div>
+    </div>
+
   </div>
 
   <?php include 'footer.php'; ?>

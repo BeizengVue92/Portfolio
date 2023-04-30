@@ -1,6 +1,6 @@
-<?php include 'header.php'; ?>
+<?php include ('header.php'); ?>
 
-<?php include 'nav.php'; ?>
+<?php include ('nav.php'); ?>
 
 
   <div class="container text-center">
@@ -9,7 +9,7 @@
 
       <div class="col">
 
-        <form action="contact.php" method="POST" autocomplete="off">
+        <form action="#" method="POST" autocomplete="off">
           <h1>Contact Me</h1>
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" placeholder="Your name" required>
@@ -36,4 +36,4 @@
 
 
 
-  <?php include 'footer.php'; ?>
+  <?php include ('footer.php'); ?>

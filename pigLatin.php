@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Pig Latin with string functions in PHP</title>
-    <style>
-      body {
-        color: green;
-        font-family: Arial, Verdana;
-      }
-    </style>
-  </head>
-  <body>
+<?php include 'header.php'; ?>
+<?php include 'nav.php'; ?>
+
+<div class="container text-center">
+
+  <h1>Pig Latin Generator</h1>
+
+</div>
       
-    <h1>Pig Latin Generator</h1><?php
+
+    
+    
+    <?php
 
       function sanitizeString($field) {
         return filter_input(INPUT_GET, $field, FILTER_SANITIZE_STRING);
@@ -115,5 +113,4 @@ FORM;
               
       } // end if form has been submitted
       ?> 
-  </body>
-</html>
+<?php include 'footer.php'; ?>
