@@ -40,10 +40,19 @@ MYFORM;
     $id = strtolower(sanitizeString('pokeInput'));
 
     $data = file_get_contents($base . $id . '/');
+    $pokemon = json_decode($data);
 
-      $pokemon = json_decode($data);
-      $sprite = $pokemon->sprites->front_default;
-      $types = $pokemon->types;
+    if ($pokemon === null) {
+      // handle the error here
+      ?>
+      <h1>Error: Invalid Pokémon name or ID</h1>
+      <button onclick="history.go(-1);" class="btn btn-info">Back </button>
+      <?php
+
+    } else {
+    // display the Pokémon information
+    $sprite = $pokemon->sprites->front_default;
+    $types = $pokemon->types;
 
       ?>
       <div class="row">
@@ -79,6 +88,7 @@ MYFORM;
       <button onclick="history.go(-1);" class="btn btn-info">Back </button>
 
       <?php
+    }
   }
   ?>
 

@@ -8,7 +8,7 @@
     <div id="myLinks">
       <a href="index.php">Home</a>
       <a href="projects.php">Projects</a>
-      <a href="contact.php">Contact</a>
+      <!-- <a href="contact.php">Contact</a> Updating--> 
     </div>
     <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
