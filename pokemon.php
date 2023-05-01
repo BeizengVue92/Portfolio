@@ -37,7 +37,7 @@ MYFORM;
 
 
     $base = "http://pokeapi.co/api/v2/pokemon/";
-    $id = sanitizeString('pokeInput');
+    $id = strtolower(sanitizeString('pokeInput'));
 
     $data = file_get_contents($base . $id . '/');
 
@@ -59,6 +59,7 @@ MYFORM;
               </h5>
               <?php
               foreach ($types as $slot) {
+
                 ?>
                 <p class='card-text'>Type:
                   <?= $slot->type->name ?>
@@ -68,14 +69,15 @@ MYFORM;
               ?>
 
             </div>
+
           </div>
 
 
         </div>
 
       </div>
+      <button onclick="history.go(-1);" class="btn btn-info">Back </button>
 
-      <button onclick="history.go(-1);">Back </button>
       <?php
   }
   ?>
