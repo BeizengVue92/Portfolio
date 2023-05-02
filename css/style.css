@@ -43,6 +43,7 @@
 
 .image-container {
   text-align: center;
+  padding: 20px;
 }
 
 .profilePicture {
@@ -50,6 +51,11 @@
   height: 500px;
   width: 400px;
   margin: 0 auto;
+}
+
+.schoolLogo {
+  width: 400px;
+  height: auto;
 }
 
 .summary {
@@ -76,6 +82,10 @@
   margin: 0 auto; 
   float: none;
   margin-bottom: 10px;
+}
+
+.card-img-top {
+  height: 200px;
 }
 
 li {

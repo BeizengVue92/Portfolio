@@ -19,13 +19,10 @@
 
         <section class="summary">
           <h5>
-            Hello, my name is Beizeng Vue and I am a Software Developer and a current student at Chippewa Valley
-            Technical College
-            going for their Associate of Applied Science in Information Technology. As a beginner software
-            developer,
-            my
-            portfolio website
-            showcases my skills, experience, and projects to potential employers and clients. I have a strong
+            Hello, my name is Beizeng Vue and I am a Software Developer and a current student at 
+            <img src="images/collegeLogo.png" alt="Chippewa Valley Technical College Logo" class="schoolLogo">
+            going for their Assocaite Degree in Information Technology - Software Developer (44 of 60 credits) GPA 4.00.
+             I have a strong
             foundation
             in programming
             concepts and languages, including PHP, JavaScript, ASP.Net, and Java. I have built several practical
